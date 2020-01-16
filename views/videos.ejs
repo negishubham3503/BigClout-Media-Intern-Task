@@ -1,0 +1,8 @@
+<%- include("partials/header"); %>
+
+<h2>Your Uploaded Videos</h2>
+<% uploads.forEach(function(upload){%>
+    <a href="<%=upload.url%>"><%=upload.url%></a>
+<%});%>
+
+<%- inlcude("partials/footer"); %>

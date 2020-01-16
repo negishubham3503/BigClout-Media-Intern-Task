@@ -1,0 +1,9 @@
+<%- include("partials/header"); %>
+
+<% const link = "/user/" + user + "/api/media/upload"; %>
+<form action="<%=link%>" method="POST">
+    <input type="text" name="url" placeholder="Enter URL of the video">
+    <button type="submit" class="forgot" name="upload">Upload</button>
+</form>
+
+<%- inlcude("partials/footer"); %>

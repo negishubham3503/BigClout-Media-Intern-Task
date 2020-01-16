@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    font-family: 'Gayathri', sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+}
+.container{
+    position: relative;
+    margin: auto;
+    top: 7rem;
+}
+input{
+    display: block;
+    margin: auto;
+    height: 3rem;
+    width: 25rem;
+    border: 0.5px solid gray;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1.25rem;
+}
+input:focus-within{
+    border: 2px solid rgb(248, 70, 70);
+}
+::placeholder {
+    text-align: center;
+    font-size: 1.25rem;
+}
+button{
+    width: 12rem;
+    height: 3.5rem;
+    color: white;
+    border-radius: 25px;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+.login{
+    background-color: rgb(33, 207, 207);
+}
+.signup{
+    background-color: tomato;
+}
+.login:hover{
+    background-color: rgb(88, 246, 246);
+}
+.signup:hover{
+    background-color: rgb(255, 143, 123);
+}
+.forgot{
+    width: 17rem;
+    margin-top: 1rem;
+    background-color: rgb(13, 139, 13);
+}
+.forgot:hover{
+    background-color: rgb(73, 197, 73);
+}
+footer{
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+    right: 42%;
+}
+a:link{
+    color: rgb(57, 57, 243);
+}
+a:visited{
+    color: darkmagenta;
+}
+.hide{
+    display: none;
+}

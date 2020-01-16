@@ -1,0 +1,9 @@
+<%- include('partials/header'); %>
+
+<% const link1 = "/user/" + id + "/api/media/upload";%>
+<% const link2 = "/user/" + id + "/api/media";%>
+<h1>Welcome!<br><%= name %></h1>
+<button type="submit" formaction="<%=link1%>" class="login" formmethod="GET">Upload Video</button> 
+<button type="submit" formaction="<%=link2%>" class="signup" formmethod="GET">See Videos</button> 
+
+<%- include('partials/footer'); %>
